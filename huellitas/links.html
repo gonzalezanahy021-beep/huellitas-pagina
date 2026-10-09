@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas - Enlaces y Contacto</title>
+    <style>
+        :root { --primary: #ff6b6b; --bg: #fdfcfb; --text: #333; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--bg); color: var(--text); margin: 0; padding: 0; }
+        header { background: linear-gradient(135deg, var(--primary), #ff8e53); color: white; text-align: center; padding: 2rem 1rem; }
+        nav { display: flex; justify-content: center; gap: 1.5rem; background-color: #333; padding: 0.8rem; position: sticky; top: 0; z-index: 100; }
+        nav a { color: white; text-decoration: none; font-weight: bold; }
+        nav a:hover, nav a.active { color: #ff8e53; }
+        .container { max-width: 800px; margin: 2rem auto; padding: 0 1rem; text-align: center; }
+        .link-box { background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); margin-top: 1.5rem; }
+        .btn { display: inline-block; background-color: var(--primary); color: white; padding: 0.8rem 1.5rem; border-radius: 25px; text-decoration: none; font-weight: bold; margin-top: 1rem; }
+        .btn:hover { background-color: #e55656; }
+        footer { background-color: #222; color: white; text-align: center; padding: 1.5rem; margin-top: 3rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🐾 Enlaces y Formularios</h1>
+        <p>Estás a un paso de completar tu proceso</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="adopciones.html">Adopciones</a>
+        <a href="donaciones.html">Donaciones</a>
+        <a href="links.html" class="active">Enlaces de Interés</a>
+    </nav>
+
+    <div class="container">
+        <h2>Enlaces de Adopción y Donación</h2>
+        <p>Aquí puedes agregar los formularios de Google Forms, redes sociales o páginas de contacto.</p>
+
+        <div class="link-box">
+            <h3>Formulario de Solicitud de Adopción</h3>
+            <p>Llena nuestro cuestionario para evaluar tu hogar ideal para el perrito.</p>
+            <a href="https://forms.gle/tu-enlace-de-adopcion" target="_blank" class="btn">Ir al Formulario de Adopción</a>
+        </div>
+
+        <div class="link-box">
+            <h3>Coordinar una Donación</h3>
+            <p>Contáctanos directamente para coordinar la entrega de alimento o cobijas.</p>
+            <a href="https://wa.me/tu-numero-telefonico" target="_blank" class="btn">Contactar por WhatsApp</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Huellitas - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas - Adopciones</title>
+    <style>
+        :root { --primary: #ff6b6b; --bg: #fdfcfb; --text: #333; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--bg); color: var(--text); margin: 0; padding: 0; }
+        header { background: linear-gradient(135deg, var(--primary), #ff8e53); color: white; text-align: center; padding: 2rem 1rem; }
+        nav { display: flex; justify-content: center; gap: 1.5rem; background-color: #333; padding: 0.8rem; position: sticky; top: 0; z-index: 100; }
+        nav a { color: white; text-decoration: none; font-weight: bold; }
+        nav a:hover, nav a.active { color: #ff8e53; }
+        .container { max-width: 1200px; margin: 2rem auto; padding: 0 1rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; }
+        .card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.08); display: flex; flex-direction: column; justify-content: space-between; }
+        .card img { width: 100%; height: 220px; object-fit: cover; }
+        .card-content { padding: 1rem; text-align: center; }
+        .card-content h3 { color: var(--primary); margin: 0 0 0.5rem 0; }
+        .btn { display: inline-block; background-color: var(--primary); color: white; padding: 0.5rem 1rem; border-radius: 20px; text-decoration: none; font-weight: bold; margin-top: 1rem; }
+        .btn:hover { background-color: #e55656; }
+        footer { background-color: #222; color: white; text-align: center; padding: 1.5rem; margin-top: 3rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🐾 Perritos en Adopción</h1>
+        <p>Encuentra a tu próximo mejor amigo</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="adopciones.html" class="active">Adopciones</a>
+        <a href="donaciones.html">Donaciones</a>
+        <a href="links.html">Enlaces de Interés</a>
+    </nav>
+
+    <div class="container">
+        <h2>Conoce a nuestros rescatados</h2>
+        <div class="grid">
+            <!-- Bebes -->
+            <div class="card"><img src="img/bebes.jpg" alt="Bebes"><div class="card-content"><h3>Cachorritos</h3><p>Buscando un hogar responsable.</p><a href="links.html" class="btn">Adoptar</a></div></div>
+            <!-- Bigotes -->
+            <div class="card"><img src="img/Bigotes.jpg" alt="Bigotes"><div class="card-content"><h3>Bigotes</h3><p>Muy simpático y alegre.</p><a href="links.html" class="btn">Adoptar</a></div></div>
+            <!-- Chimicurri -->
+            <div class="card"><img src="img/chimicurri.jpg" alt="Chimicurri"><div class="card-content"><h3>Chimicurri</h3><p>Único y muy divertido.</p><a href="links.html" class="btn">Adoptar</a></div></div>
+            <!-- Lobito -->
+            <div class="card"><img src="img/lobito.jpg" alt="Lobito"><div class="card-content"><h3>Lobito</h3><p>Aventurero y listo para jugar.</p><a href="links.html" class="btn">Adoptar</a></div></div>
+            <!-- Luli (Usando el nombre exacto de tu carpeta: 1luli.jpg) -->
+            <div class="card"><img src="img/luli.jpg" alt="Luli"><div class="card-content"><h3>Luli</h3><p>Tierna y llena de amor.</p><a href="links.html" class="btn">Adoptar</a></div></div>
+            <!-- Lunita -->
+            <div class="card"><img src="img/lunita.jpg" alt="Lunita"><div class="card-content"><h3>Lunita</h3><p>Cariñosa y tranquila.</p><a href="links.html" class="btn">Adoptar</a></div></div>
+            <!-- Luquitas -->
+            <div class="card"><img src="img/luquitas.jpg" alt="Luquitas"><div class="card-content"><h3>Luquitas</h3><p>Ideal para espacios pequeños.</p><a href="links.html" class="btn">Adoptar</a></div></div>
+            <!-- Manchas -->
+            <div class="card"><img src="img/manchas.jpg" alt="Manchas"><div class="card-content"><h3>Manchas</h3><p>Muy noble y sociable.</p><a href="links.html" class="btn">Adoptar</a></div></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Huellitas - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

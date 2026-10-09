@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas - Donaciones</title>
+    <style>
+        :root { --primary: #ff6b6b; --bg: #fdfcfb; --text: #333; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--bg); color: var(--text); margin: 0; padding: 0; }
+        header { background: linear-gradient(135deg, var(--primary), #ff8e53); color: white; text-align: center; padding: 2rem 1rem; }
+        nav { display: flex; justify-content: center; gap: 1.5rem; background-color: #333; padding: 0.8rem; position: sticky; top: 0; z-index: 100; }
+        nav a { color: white; text-decoration: none; font-weight: bold; }
+        nav a:hover, nav a.active { color: #ff8e53; }
+        .container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; text-align: center; }
+        .card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.08); max-width: 400px; margin: 0 auto; }
+        .card img { width: 100%; height: 250px; object-fit: cover; }
+        .card-content { padding: 1.5rem; }
+        .btn { display: inline-block; background-color: var(--primary); color: white; padding: 0.6rem 1.2rem; border-radius: 20px; text-decoration: none; font-weight: bold; margin-top: 1rem; }
+        .btn:hover { background-color: #e55656; }
+        footer { background-color: #222; color: white; text-align: center; padding: 1.5rem; margin-top: 3rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🐾 Centro de Donaciones</h1>
+        <p>Tu apoyo nos ayuda a seguir alimentando y cuidando perritos</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="adopciones.html">Adopciones</a>
+        <a href="donaciones.html" class="active">Donaciones</a>
+        <a href="links.html">Enlaces de Interés</a>
+    </nav>
+
+    <div class="container">
+        <h2>¿Cómo puedes donar?</h2>
+        <p>Recibimos alimento en bolsa o lata, cobijas limpias, juguetes y artículos de limpieza.</p>
+        
+        <div class="card">
+            <img src="img/huesitos.jpg" alt="Donaciones de Insumos">
+            <div class="card-content">
+                <h3>Insumos y Alimento</h3>
+                <p>Haz clic en el botón para conocer los centros de acopio y cómo hacer tu aportación.</p>
+                <a href="links.html" class="btn">Quiero Donar</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Huellitas - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
